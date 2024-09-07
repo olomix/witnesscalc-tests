@@ -2,7 +2,7 @@
 
 set -e
 
-# Install openpassword and it's dependencies
+# Install openpassport and it's dependencies
 git submodule init
 git submodule update
 if [ ! -L deps/@zk-email ]; then
