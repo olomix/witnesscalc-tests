@@ -1,0 +1,9 @@
+[submodule "deps/zk-email-verify"]
+	path = deps/zk-email-verify
+	url = git@github.com:olomix/zk-email-verify
+[submodule "deps/circomlib"]
+	path = deps/circomlib
+	url = git@github.com:iden3/circomlib
+[submodule "deps/openpassport"]
+	path = deps/openpassport
+	url = git@github.com:zk-passport/openpassport.git
