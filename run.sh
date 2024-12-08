@@ -18,7 +18,8 @@ fi
 # * build-circuit: creates the witness calculation description from the circom program.
 # * calc-witness: calculates the witness from the witness calculation description and input signals.
 if [ ! -x bin/build-circuit -o ! -x bin/calc-witness ]; then
-    cargo install --git https://github.com/iden3/circom-witnesscalc.git --branch main --bin build-circuit --bin calc-witness --root ./
+	echo "Install circom-witnesscalc binaries into ./bin directory"
+	cargo install --git https://github.com/iden3/circom-witnesscalc.git --branch main --bin build-circuit --bin calc-witness --root ./
 fi
 
 # Install snarkjs to validate generated witness
